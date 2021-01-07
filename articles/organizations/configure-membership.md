@@ -11,7 +11,7 @@ useCase:
 toc: true
 ---
 
-# Configure Membership 
+# Configure Membership
 
 Each organization has its own associated members, which represent the users who will be allowed to log in through its configured login page. You can add members to organizations by assigning them if they are already in the data store, or by inviting them if they are not.
 
