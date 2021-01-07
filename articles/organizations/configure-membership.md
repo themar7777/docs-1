@@ -135,7 +135,9 @@ Possible response status codes are as follows:
  
 If you would like to assign a member to your organization, but the user does not yet exist in your data store, you can invite them to your organization. In this case, the user will receive an email containing a link that will allow them to log in to the organization using a configured connection.
 
-In order for invitations to work, you need to have a [default login route](https://auth0.com/docs/universal-login/configure-default-login-routes) saved for your tenant or application. This login route needs to forward along the `invitation` URL parameter that is included in the invitation link.
+::: warning
+For invitations to work, you must save a [default login route](/universal-login/configure-default-login-routes) for your tenant or application. The login route must forward the `invitation` URL parameter, which is included in the invitation link.
+:::
  
 You can invite users to organizations using either the Auth0 Dashboard or the Management API.
  
