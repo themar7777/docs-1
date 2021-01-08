@@ -13,7 +13,7 @@ toc: true
 
 # Organizations - Beta
 
-The Organizations feature represents a broad update to the Auth0 platform that allows our Business-to-Business (B2B) customers to better manage their partners and customers, and customize the ways that end-users in those organizations access their applications. Auth0 customers can use Organizations to:s
+The Organizations feature represents a broad update to the Auth0 platform that allows our Business-to-Business (B2B) customers to better manage their partners and customers, and customize the ways that end-users in those organizations access their applications. Auth0 customers can use Organizations to:
 
 * represent their business customers and partners in Auth0 and manage their membership.
 * configure branded, federated login flows for each business.
