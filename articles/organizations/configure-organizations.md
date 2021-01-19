@@ -97,6 +97,11 @@ When using Organizations with Universal Login out-of-the-box prompts, the brandi
 
 ### Page templates
 
+::: note
+To access page template customization, you must use [custom domains](/custom-domains), which is a feature of [any paid pricing plan](https://auth0.com/pricing/).
+:::
+
+
 To modify Universal Login pages, customize a page template using the [Liquid template language](https://shopify.github.io/liquid/) and [template variables](#template-variables), then apply the template using the [Universal Login Page Templates API](/universal-login/new-experience/universal-login-page-templates#page-templates-api).
 
 Because the same template is used for all pages, you can implement consistent login pages with minimum effort.
